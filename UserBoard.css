@@ -1,0 +1,33 @@
+.user-dashboard {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+  }
+  
+  .user-card {
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .user-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1) !important;
+  }
+  
+  .user-card .card-body {
+    height: 200px;
+  }
+  
+  .text-primary {
+    color: #007bff !important;
+  }
+  
+  .user-card .card-title {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  
+  @media (max-width: 768px) {
+    .user-card .card-body {
+      height: 180px;
+    }
+  }

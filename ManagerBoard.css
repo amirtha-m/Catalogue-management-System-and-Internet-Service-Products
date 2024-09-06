@@ -1,0 +1,33 @@
+.manager-dashboard {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.manager-card {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.manager-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1) !important;
+}
+
+.manager-card .card-body {
+  height: 180px;
+}
+
+.text-primary {
+  color: #007bff !important;
+}
+
+.manager-card .card-title {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .manager-card .card-body {
+    height: 150px;
+  }
+}

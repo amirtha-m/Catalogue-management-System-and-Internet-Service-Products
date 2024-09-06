@@ -1,0 +1,90 @@
+/* SharedStyles.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* SharedStyles.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* SharedStyles.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+:root {
+  --dark-blue: #0a2472;
+  --medium-blue: #1e3799;
+  --light-blue: #4a69bd;
+  --very-light-blue: #d6e4ff;
+  --card-color: #ffffff;
+  --text-color: #0c2461;
+  --hover-color: #60a3bc;
+  --background-color: #e8f1ff; /* Light blue background */
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--background-color);
+}
+
+.dashboard-container {
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+.dashboard-card {
+  background-color: var(--card-color);
+  border: none;
+  margin-top: 15px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(10, 36, 114, 0.1);
+}
+
+.dashboard-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(10, 36, 114, 0.2);
+}
+
+.dashboard-card .card-body {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.dashboard-card .card-title {
+  color: var(--text-color);
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.dashboard-icon {
+  color: var(--medium-blue);
+  font-size: 2.5rem;
+  transition: all 0.3s ease;
+}
+
+.dashboard-card:hover .dashboard-icon {
+  color: var(--hover-color);
+}
+
+.dashboard-header {
+  color: var(--dark-blue);
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+@media (max-width: 768px) {
+  .dashboard-card .card-body {
+    height: 180px;
+  }
+  
+  .dashboard-header {
+    font-size: 2rem;
+  }
+}

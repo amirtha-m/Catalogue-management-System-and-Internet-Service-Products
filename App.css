@@ -1,0 +1,126 @@
+:root {
+  --dark-blue: #0a2472;
+  --medium-blue: #1e3799;
+  --light-blue: #4a69bd;
+  --very-light-blue: #d6e4ff;
+  --card-color: #ffffff;
+  --text-color: #0c2461;
+  --hover-color: #60a3bc;
+  --background-color: #e8f1ff;
+}
+
+/* Navbar Styles */
+.navbar {
+  background: linear-gradient(135deg, var(--dark-blue), var(--medium-blue)) !important;
+}
+
+.nav-link{
+  color: white!important;
+}
+
+
+
+/* Custom CSS for Home and Login components */
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+.card-container.card {
+  max-width: 350px !important;
+  padding: 40px 40px;
+  background-color: var(--card-color);
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(10, 36, 114, 0.2);
+}
+
+.card {
+  background-color: var(--card-color);
+  padding: 20px 25px 30px;
+  margin: 50px auto;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(10, 36, 114, 0.1);
+}
+
+.profile-img-card {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 10px;
+  border-radius: 50%;
+}
+
+.dropdown-menu {
+  background-image: linear-gradient(180deg, var(--light-blue), var(--medium-blue));
+  border: 1px solid var(--very-light-blue);
+  padding: 0.5rem 0;
+  border-radius: 0.25rem;
+}
+
+.dropdown-menu a {
+  color: var(--card-color);
+}
+
+.dropdown-menu a:hover {
+  background-color: var(--very-light-blue);
+  color: var(--dark-blue);
+}
+
+.bg-gradient-primary {
+  background-image: linear-gradient(180deg, var(--light-blue), var(--medium-blue));
+}
+
+.btn-primary {
+  background-image: linear-gradient(180deg, var(--light-blue), var(--medium-blue));
+  border: none;
+  color: var(--card-color);
+}
+
+.btn-primary:hover {
+  background-color: var(--dark-blue);
+}
+
+.radiant-sky-blue {
+  background-color: var(--light-blue);
+  border-radius: 10px;
+}
+
+/* Additional Styles */
+.form-container {
+  text-align: center;
+}
+
+.form-control-medium {
+  width: 250px;
+  border-radius: 8px;
+}
+
+.btn-submit {
+  background-color: var(--medium-blue);
+  color: var(--card-color);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background-color: var(--dark-blue);
+}
+
+.product {
+  width: 80%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(10, 36, 114, 0.1);
+  margin-bottom: 20px;
+  background-color: var(--card-color);
+}
+
+.product-divider {
+  border: 0;
+  height: 1px;
+  background-color: var(--very-light-blue);
+}
+
+
+
